@@ -56,6 +56,9 @@ const config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        gtag: {
+          trackingID: "G-1EYD4PELY1",
+        },
       }),
     ],
   ],
@@ -65,6 +68,12 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      metadata: [
+        {
+          name: "google-site-verification",
+          content: "prA1-3T2axZoqAbyHxelfUy_Q8egcFun8lAEg_q60-U",
+        },
+      ],
       navbar: {
         title: "My Site",
         logo: {
