@@ -1,45 +1,43 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Hi there!",
+    src: require("@site/static/img/me.png").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        안녕하세요! <code>정준형</code>입니다. 블로그에서 많은 것을 얻어가셨으면
+        좋겠어요!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Focus on What Matters",
+    src: require("@site/static/img/FE.webp").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        프론트엔드 개발자가 되기 위한 여정을 담은 <br /> 블로그에요!
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Powered by React",
+    src: require("@site/static/img/react.png").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <code>React.js</code>와 <code>Next.js</code>를 공부중입니다!
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ src, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <div className={clsx("col col--4")}>
+      <div className={clsx("text--center")}>
+        <img className={styles.featureSvg} src={src} alt="대체" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
