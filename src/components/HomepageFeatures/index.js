@@ -35,7 +35,7 @@ const FeatureList = [
 
 function Feature({ src, title, description }) {
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--4", styles.slide)}>
       <div className={clsx("text--center")}>
         <img className={styles.featureSvg} src={src} alt="대체" />
       </div>
