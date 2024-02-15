@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "Dev",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -75,34 +75,28 @@ const config = {
         },
       ],
       navbar: {
-        title: "My Site",
+        title: "Dev blog",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/favicon.ico",
         },
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
-          {
-            type: "docSidebar",
             sidebarId: "feGroups",
             position: "left",
-            label: "🔥FE",
+            label: "✨FE",
           },
 
           {
             type: "docSidebar",
             sidebarId: "beGroups",
             position: "left",
-            label: "BE",
+            label: "📡BE",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "📜Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/jungjunhyung99",
             label: "GitHub",
             position: "right",
           },
@@ -115,8 +109,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Notion",
+                to: "https://aquamarine-apricot-73a.notion.site/Portfolio-07600b54efd74971aaea2fd20f1b96ff",
               },
             ],
           },
@@ -124,16 +118,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Github",
+                href: "https://github.com/jungjunhyung99",
               },
             ],
           },
@@ -142,11 +128,7 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://humor12.tistory.com/",
               },
             ],
           },
