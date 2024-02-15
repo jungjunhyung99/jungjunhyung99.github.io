@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5124],{5952:e=>{e.exports=JSON.parse('{"title":"GraphQL","description":"5 minutes to learn the most important Docusaurus concepts.","slug":"/category/graphql-1","permalink":"/docs/category/graphql-1","navigation":{"next":{"title":"graphql01","permalink":"/docs/g-be-docs/GraphQL/graphql01"}}}')}}]);
