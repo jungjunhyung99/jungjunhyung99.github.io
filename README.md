@@ -1,5 +1,5 @@
 # 🔥정준형의 개발 블로그 
-> Docusaurus를 이용해 자체 제작 블로그입니다! <br/>
+> Docusaurus를 이용한 개발 블로그입니다! <br/>
 > 개발 과정에서 유용하게 사용할 수 있는 컨텐츠를 다룹니다.<br/>
 > <code>Next.js</code>  <code>React.js</code>   <code>개발</code>
 
