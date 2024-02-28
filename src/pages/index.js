@@ -6,6 +6,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
+import Head from "@docusaurus/Head";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -25,6 +26,10 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={`정준형의 개발블로그`} description="정준형의 개발블로그">
+      <Head>
+        <meta property="og:image" content="img/og.png" />
+        <link rel="icon" href="img/favicon.ico"></link>
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
